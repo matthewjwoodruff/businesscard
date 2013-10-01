@@ -1,0 +1,72 @@
+% inspired by http://www.ms.uky.edu/~math/Help/index.html
+\documentclass[9pt,letterpaper]{memoir}
+   \settrimmedsize{11in}{8.5in}{*}
+      \setlength{\trimtop}{0pt}
+      \setlength{\trimedge}{\stockwidth}
+      \addtolength{\trimedge}{-\paperwidth}
+      \setlrmarginsandblock{0.50in}{0.50in}{*}
+      \setulmarginsandblock{0.50in}{0.50in}{*}
+      \setheadfoot{\onelineskip}{2\onelineskip}
+      %\setheaderspaces{*}{2\onelineskip}{*}
+      \checkandfixthelayout
+
+
+
+\pagestyle{empty}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0em}
+
+\newcommand{\Who}{Matthew Woodruff}
+\newcommand{\PhD}{Ph.D.\ Candidate, Industrial Engineering}
+\newcommand{\MS}{M.S.\ Electrical Engineering}
+\newcommand{\BS}{B.S.\ Computer Engineering}
+\newcommand{\Where}{The Pennsylvania State University}
+\newcommand{\Why}{Many-Objective Design Optimization and Visual Discovery}
+\newcommand{\Phone}{xxx-xxx-xxxx}
+\newcommand{\How}{xxxxxx@xxx.xxx}
+\newcommand{\Web}{www.github.com/matthewjwoodruff}
+\newcommand{\businesscard}{
+%	\fbox{
+	\begin{minipage}[c][2.0in][c]{3.5in}
+		{\large\sffamily\bfseries\Who}\\
+		{\small\Why}
+
+		\vspace{0.5em}
+		{\bfseries\sffamily\Where} \\
+		{\small\PhD} \\
+		{\small\MS} \\
+		{\small\BS}
+
+		\vspace{0.5em}
+		{\bfseries\sffamily Contact}\\
+		{\Phone} \\
+		{\ttfamily\How} \\
+		{\ttfamily\Web}
+	\end{minipage}
+%	}
+}
+
+\begin{document}
+
+\begin{tabular}{|p{3.5in}|p{3.5in}|}
+\hline
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hline
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hline
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hline
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hline
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hline
+\end{tabular}
+
+\begin{tabular}{p{3.5in} p{3.5in}}
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\hspace{0.25in}\businesscard & \hspace{0.25in}\businesscard \\
+\end{tabular}
+\end{document}
